@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classe Studente</title>
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); istanza(); reset();">
+        <h1>Form Classe Studente</h1>
+
+        <input type="text" id="nome" placeholder="Nome"><br>
+        <span id="nomeError"></span><br>
+
+        <input type="text" id="cognome" placeholder="Cognome"><br>
+        <span id="cognomeError"></span><br>
+
+        <input type="text" id="eta" placeholder="Età"><br>
+        <span id="etaError"></span><br>
+
+        <input type="text" id="matricola" placeholder="Matricola"><br>
+        <span id="matricolaError"></span><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="scuola">Studenti:</p>
+    <script src="Classe_studente.js"></script>
+
+</body>
+</html>
